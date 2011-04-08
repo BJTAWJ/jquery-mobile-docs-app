@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"> 
 	<title>jQuery Mobile Docs - Methods</title> 
-	<link rel="stylesheet"  href="../../themes/default/jquery.mobile-1.0a4.min.css" /> 
+	<link rel="stylesheet"  href="../../themes/default/jquery.mobile-1.0a4.1.min.css" /> 
 	<link rel="stylesheet" href="../assets/css/jqm-docs.css"/>
-	<script type="text/javascript" src="../../js/jquery-1.5.2.min.js"></script> <script type="text/javascript" src="../../js/jqmobileconfig.js"></script>
-	<script type="text/javascript" src="../../js/jquery.mobile-1.0a4.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="../../js/jqmobileconfig.js"></script> 	<script type="text/javascript" src="../../js/jquery.mobile-1.0a4.1.min.js"></script>
 </head> 
 <body> 
 
@@ -74,7 +74,7 @@ $.mobile.changePage("../alerts/confirm.html", "pop", false, false);
 			<dd>
 				<dl>
 					<dt>Arguments:</dt>
-					<dd>See jQuery's <a href="http://api.jquery.com/jQuery.data/index.html">data</a> and <a href="http://api.jquery.com/jQuery.removeData/index.html">removeData</a> methods</dd>
+					<dd>See jQuery's <a href="http://api.jquery.com/jQuery.data/">data</a> and <a href="http://api.jquery.com/jQuery.removeData/">removeData</a> methods</dd>
 					<dt>Also:</dt>
 					<dd>When finding elements by their jQuery Mobile data attribute, please use the custom selector <code>:jqmData()</code>, as it automatically incorporates namespaced data attributes into the lookup when they are in use. For example, instead of calling <code>$("div[data-role='page']")</code>, you should use <code>$("div:jqmData(role='page')")</code>, which internally maps to <code>$("div[data-"+ $.mobile.ns +"role='page']")</code> without forcing you to concatenate a namespace into your selectors manually.</dd>
 				</dl>
