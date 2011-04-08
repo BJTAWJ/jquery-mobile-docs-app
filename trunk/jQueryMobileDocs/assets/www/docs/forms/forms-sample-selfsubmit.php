@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"> 
 	<title>jQuery Mobile Docs - Sample Form Submit to Self</title> 
-	<link rel="stylesheet"  href="../../themes/default/jquery.mobile-1.0a4.min.css" />  
-	<link rel="stylesheet" href="../assets/css/jqm-docs.css"/>
-	<script type="text/javascript" src="../../js/jquery-1.5.2.min.js"></script> <script type="text/javascript" src="../../js/jqmobileconfig.js"></script>
-	<script type="text/javascript" src="../../js/jquery.mobile-1.0a4.min.js"></script>
+	<link rel="stylesheet"  href="../../themes/default/" />  
+	<link rel="stylesheet" href="../_assets/css/jqm-docs.css"/>
+	<script type="text/javascript" src="../../js/jquery.js"></script>
+	<script type="text/javascript" src="../../js/"></script>
 </head> 
 <body> 
 
@@ -15,7 +15,7 @@
 
 	<div data-role="header" data-theme="e">
 		<h1>Sample form submit to self</h1>
-		<a href="../../index.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+		<a href="../../" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
 	</div><!-- /header -->
 
 	<div data-role="content" data-theme="c">
