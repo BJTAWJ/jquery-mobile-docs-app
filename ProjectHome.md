@@ -1,0 +1,2 @@
+This app captures for offline use the latest version of the jQuery Mobile documentation available at http://jquerymobile.com. All credits regarding the content go to the jQuery Mobile team.
+For packaging as distributable App it uses the 0.9.4 version of the PhoneGap framework available at http://www.phonegap.com/.
